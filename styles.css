@@ -1,0 +1,14 @@
+*{
+    line-height: 1.5;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    border-style: double;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.title{
+    text-align: center;
+    border-style: outset;
+}

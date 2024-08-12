@@ -2,13 +2,48 @@
     line-height: 1.5;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px auto;
+}
+body{
+    margin: 0;
+}
+div h1{
+    text-align: center;
 }
 .container{
     border-style: double;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 20px 30px;
+    background-color: hsl(60, 100%, 60%);
+    text-decoration: none;
 }
 .title{
     text-align: center;
     border-style: outset;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 55px;
 }
+img{
+    border-radius: 15px;
+    padding: auto;
+}
+.tilapia{
+    display: block;
+    padding: 8px;
+}
+
+li a{
+    background-color: white;
+    border: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    list-style-type: none;
+    padding: 5px;
+    color: blue;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+

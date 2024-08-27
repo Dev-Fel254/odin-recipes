@@ -1,7 +1,6 @@
 *{
     line-height: 1.5;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 15px auto;
 }
 body{
@@ -24,11 +23,17 @@ div h1{
 }
 img{
     border-radius: 15px;
-    padding: auto;
+    padding: 10px;
+    margin: 25px;
 }
 .tilapia{
-    display: block;
+    display: flex;
     padding: 8px;
+    flex-wrap:wrap ;
+    align-items:center;
+}
+.tilapia > img{
+    flex: 2 0 auto;
 }
 
 li a{
@@ -42,8 +47,45 @@ li a{
 }
 
 li{
-    list-style-type: none;
     padding: 10px;
 }
+.recipe-list {
+    display: flex;
+    border-bottom: 1px solid #333333;
+}
 
-
+.nav-bar {
+    border-bottom: 1px solid #333333;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 5px 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+.nav-bar > a {
+    display: flex;
+}
+.fourth-item{
+    margin-left: auto;
+}
+.welcome > h1{
+    text-align: left;
+} 
+.welcome-message{
+    display: flex;
+    padding: 10px 150px;
+    width: 900px;
+    justify-content: center;
+    border-bottom: 1px solid #333333;
+}
+.welcome{
+    width: 400px;
+}
+.item{
+    text-align: center;
+    list-style-type: none;
+}
+.image{
+    border-radius: 10px;
+}

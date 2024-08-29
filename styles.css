@@ -1,13 +1,19 @@
 *{
     line-height: 1.5;
     text-decoration: none;
-    padding: 15px auto;
 }
 body{
     margin: 0;
 }
-div h1{
+h1{
     text-align: center;
+}
+.tin {
+    font-size: 50px;
+    margin: 12px;
+} 
+.welcome > .tin, .tin-two{
+    font-size: 35px;
 }
 .container{
     border-style: double;
@@ -21,10 +27,12 @@ div h1{
     font-family: 'Brush Script MT', cursive;
     font-size: 55px;
 }
-img{
-    border-radius: 15px;
-    padding: 10px;
+.image{
+    border-radius: 100px;
     margin: 25px;
+}
+.first-image{
+    margin: 15px;
 }
 .tilapia{
     display: flex;
@@ -43,7 +51,7 @@ li a{
     border-radius: 10px;
     list-style-type: none;
     padding: 5px;
-    color: blue;
+    color: black;
 }
 
 li{
@@ -51,14 +59,16 @@ li{
 }
 .recipe-list {
     display: flex;
+    gap: 15px;
     border-bottom: 1px solid #333333;
+    justify-content: center;
 }
 
 .nav-bar {
     border-bottom: 1px solid #333333;
     color: black;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     gap: 15px;
     padding: 5px 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -66,15 +76,20 @@ li{
 .nav-bar > a {
     display: flex;
 }
-.fourth-item{
+.fourth-item, button{
     margin-left: auto;
+    background-color: #815113;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
 }
 .welcome > h1{
     text-align: left;
 } 
 .welcome-message{
     display: flex;
-    padding: 10px 150px;
+    padding: 5px 200px;
     width: 900px;
     justify-content: center;
     border-bottom: 1px solid #333333;
@@ -82,10 +97,24 @@ li{
 .welcome{
     width: 400px;
 }
+.welcome-text, a{
+    font-size: 18px;
+    color: black;
+}
+.content-one{
+    padding-left: 15px;
+}
 .item{
     text-align: center;
     list-style-type: none;
+    margin: 0;
 }
-.image{
-    border-radius: 10px;
+
+.footer{
+    height: 50px;
+    background-color: #815113;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
